@@ -1,0 +1,4 @@
+[console_scripts]
+controller = watchdog.controller:main
+watchdog = watchdog.watchdog:main
+

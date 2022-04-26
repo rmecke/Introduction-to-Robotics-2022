@@ -1,0 +1,180 @@
+[1.056s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.056s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f6f1ec75c10>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f6f1ec75c10>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f6f1ebfe1c0>)
+[1.099s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.099s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.099s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.099s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.099s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.100s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.100s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial'
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/reactive_behaviour) by extensions ['ignore', 'ignore_ament_install']
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/reactive_behaviour) by extension 'ignore'
+[1.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/reactive_behaviour) by extension 'ignore_ament_install'
+[1.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/reactive_behaviour) by extensions ['colcon_pkg']
+[1.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/reactive_behaviour) by extension 'colcon_pkg'
+[1.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/reactive_behaviour) by extensions ['colcon_meta']
+[1.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/reactive_behaviour) by extension 'colcon_meta'
+[1.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/reactive_behaviour) by extensions ['ros']
+[1.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/reactive_behaviour) by extension 'ros'
+[1.143s] DEBUG:colcon.colcon_core.package_identification:Package 'src/reactive_behaviour' with type 'ros.ament_python' and name 'reactive_behaviour'
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/watchdog) by extensions ['ignore', 'ignore_ament_install']
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/watchdog) by extension 'ignore'
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/watchdog) by extension 'ignore_ament_install'
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/watchdog) by extensions ['colcon_pkg']
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/watchdog) by extension 'colcon_pkg'
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/watchdog) by extensions ['colcon_meta']
+[1.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/watchdog) by extension 'colcon_meta'
+[1.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/watchdog) by extensions ['ros']
+[1.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/watchdog) by extension 'ros'
+[1.148s] DEBUG:colcon.colcon_core.package_identification:Package 'src/watchdog' with type 'ros.ament_python' and name 'watchdog'
+[1.148s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.149s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.149s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.149s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.149s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.227s] Level 5:colcon.colcon_core.verb:set package 'reactive_behaviour' build argument 'cmake_args' from command line to 'None'
+[1.227s] Level 5:colcon.colcon_core.verb:set package 'reactive_behaviour' build argument 'cmake_target' from command line to 'None'
+[1.227s] Level 5:colcon.colcon_core.verb:set package 'reactive_behaviour' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.227s] Level 5:colcon.colcon_core.verb:set package 'reactive_behaviour' build argument 'cmake_clean_cache' from command line to 'False'
+[1.227s] Level 5:colcon.colcon_core.verb:set package 'reactive_behaviour' build argument 'cmake_clean_first' from command line to 'False'
+[1.227s] Level 5:colcon.colcon_core.verb:set package 'reactive_behaviour' build argument 'cmake_force_configure' from command line to 'False'
+[1.228s] Level 5:colcon.colcon_core.verb:set package 'reactive_behaviour' build argument 'ament_cmake_args' from command line to 'None'
+[1.228s] Level 5:colcon.colcon_core.verb:set package 'reactive_behaviour' build argument 'catkin_cmake_args' from command line to 'None'
+[1.228s] Level 5:colcon.colcon_core.verb:set package 'reactive_behaviour' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.228s] DEBUG:colcon.colcon_core.verb:Building package 'reactive_behaviour' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/build/reactive_behaviour', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/reactive_behaviour', 'merge_install': False, 'path': '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/src/reactive_behaviour', 'symlink_install': False, 'test_result_base': None}
+[1.230s] Level 5:colcon.colcon_core.verb:set package 'watchdog' build argument 'cmake_args' from command line to 'None'
+[1.230s] Level 5:colcon.colcon_core.verb:set package 'watchdog' build argument 'cmake_target' from command line to 'None'
+[1.230s] Level 5:colcon.colcon_core.verb:set package 'watchdog' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.231s] Level 5:colcon.colcon_core.verb:set package 'watchdog' build argument 'cmake_clean_cache' from command line to 'False'
+[1.231s] Level 5:colcon.colcon_core.verb:set package 'watchdog' build argument 'cmake_clean_first' from command line to 'False'
+[1.231s] Level 5:colcon.colcon_core.verb:set package 'watchdog' build argument 'cmake_force_configure' from command line to 'False'
+[1.231s] Level 5:colcon.colcon_core.verb:set package 'watchdog' build argument 'ament_cmake_args' from command line to 'None'
+[1.231s] Level 5:colcon.colcon_core.verb:set package 'watchdog' build argument 'catkin_cmake_args' from command line to 'None'
+[1.231s] Level 5:colcon.colcon_core.verb:set package 'watchdog' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.231s] DEBUG:colcon.colcon_core.verb:Building package 'watchdog' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/build/watchdog', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/watchdog', 'merge_install': False, 'path': '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/src/watchdog', 'symlink_install': False, 'test_result_base': None}
+[1.265s] WARNING:colcon.colcon_core.verb:Some selected packages are already built in one or more underlay workspaces:
+	'reactive_behaviour' is in: /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/reactive_behaviour
+	'watchdog' is in: /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/watchdog
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding reactive_behaviour watchdog
+
+This may be promoted to an error in a future release of colcon-core.
+[1.267s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.275s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.277s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/src/reactive_behaviour' with build type 'ament_python'
+[1.278s] Level 1:colcon.colcon_core.shell:create_environment_hook('reactive_behaviour', 'ament_prefix_path')
+[1.317s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.317s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/reactive_behaviour/share/reactive_behaviour/hook/ament_prefix_path.ps1'
+[1.322s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/reactive_behaviour/share/reactive_behaviour/hook/ament_prefix_path.dsv'
+[1.324s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/reactive_behaviour/share/reactive_behaviour/hook/ament_prefix_path.sh'
+[1.328s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.328s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.345s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/src/watchdog' with build type 'ament_python'
+[1.347s] Level 1:colcon.colcon_core.shell:create_environment_hook('watchdog', 'ament_prefix_path')
+[1.349s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/watchdog/share/watchdog/hook/ament_prefix_path.ps1'
+[1.354s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/watchdog/share/watchdog/hook/ament_prefix_path.dsv'
+[1.361s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/watchdog/share/watchdog/hook/ament_prefix_path.sh'
+[1.365s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.365s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.867s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/src/reactive_behaviour'
+[1.869s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.869s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.530s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/src/watchdog'
+[2.534s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.534s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.031s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/src/reactive_behaviour': PYTHONPATH=/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/reactive_behaviour/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/reactive_behaviour build --build-base /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/build/reactive_behaviour/build install --prefix /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/reactive_behaviour --record /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/build/reactive_behaviour/install.log --single-version-externally-managed
+[4.051s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/src/watchdog': PYTHONPATH=/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/watchdog/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/watchdog build --build-base /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/build/watchdog/build install --prefix /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/watchdog --record /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/build/watchdog/install.log --single-version-externally-managed
+[4.790s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/src/reactive_behaviour' returned '0': PYTHONPATH=/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/reactive_behaviour/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/reactive_behaviour build --build-base /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/build/reactive_behaviour/build install --prefix /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/reactive_behaviour --record /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/build/reactive_behaviour/install.log --single-version-externally-managed
+[4.830s] Level 1:colcon.colcon_core.environment:checking '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/reactive_behaviour' for CMake module files
+[4.831s] Level 1:colcon.colcon_core.environment:checking '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/reactive_behaviour' for CMake config files
+[4.833s] Level 1:colcon.colcon_core.environment:checking '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/reactive_behaviour/lib'
+[4.833s] Level 1:colcon.colcon_core.environment:checking '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/reactive_behaviour/bin'
+[4.834s] Level 1:colcon.colcon_core.environment:checking '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/reactive_behaviour/lib/pkgconfig/reactive_behaviour.pc'
+[4.834s] Level 1:colcon.colcon_core.environment:checking '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/reactive_behaviour/lib/python3.8/site-packages'
+[4.834s] Level 1:colcon.colcon_core.shell:create_environment_hook('reactive_behaviour', 'pythonpath')
+[4.834s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/reactive_behaviour/share/reactive_behaviour/hook/pythonpath.ps1'
+[4.836s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/reactive_behaviour/share/reactive_behaviour/hook/pythonpath.dsv'
+[4.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/reactive_behaviour/share/reactive_behaviour/hook/pythonpath.sh'
+[4.839s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(reactive_behaviour)
+[4.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/reactive_behaviour/share/reactive_behaviour/package.ps1'
+[4.843s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/reactive_behaviour/share/reactive_behaviour/package.dsv'
+[4.847s] INFO:colcon.colcon_core.shell:Creating package script '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/reactive_behaviour/share/reactive_behaviour/package.sh'
+[4.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/reactive_behaviour/share/reactive_behaviour/package.bash'
+[4.853s] INFO:colcon.colcon_core.shell:Creating package script '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/reactive_behaviour/share/reactive_behaviour/package.zsh'
+[4.856s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/reactive_behaviour/share/colcon-core/packages/reactive_behaviour)
+[4.863s] Level 1:colcon.colcon_core.environment:checking '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/watchdog' for CMake module files
+[4.866s] Level 1:colcon.colcon_core.environment:checking '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/watchdog' for CMake config files
+[4.867s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/src/watchdog' returned '0': PYTHONPATH=/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/watchdog/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/watchdog build --build-base /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/build/watchdog/build install --prefix /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/watchdog --record /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/build/watchdog/install.log --single-version-externally-managed
+[4.868s] Level 1:colcon.colcon_core.environment:checking '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/watchdog/lib'
+[4.868s] Level 1:colcon.colcon_core.environment:checking '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/watchdog/bin'
+[4.868s] Level 1:colcon.colcon_core.environment:checking '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/watchdog/lib/pkgconfig/watchdog.pc'
+[4.868s] Level 1:colcon.colcon_core.environment:checking '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/watchdog/lib/python3.8/site-packages'
+[4.868s] Level 1:colcon.colcon_core.shell:create_environment_hook('watchdog', 'pythonpath')
+[4.869s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/watchdog/share/watchdog/hook/pythonpath.ps1'
+[4.870s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/watchdog/share/watchdog/hook/pythonpath.dsv'
+[4.871s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/watchdog/share/watchdog/hook/pythonpath.sh'
+[4.873s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(watchdog)
+[4.875s] INFO:colcon.colcon_core.shell:Creating package script '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/watchdog/share/watchdog/package.ps1'
+[4.876s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/watchdog/share/watchdog/package.dsv'
+[4.878s] INFO:colcon.colcon_core.shell:Creating package script '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/watchdog/share/watchdog/package.sh'
+[4.879s] INFO:colcon.colcon_core.shell:Creating package script '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/watchdog/share/watchdog/package.bash'
+[4.881s] INFO:colcon.colcon_core.shell:Creating package script '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/watchdog/share/watchdog/package.zsh'
+[4.882s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/watchdog/share/colcon-core/packages/watchdog)
+[4.882s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.883s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.883s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.883s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.905s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.905s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.905s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.973s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.975s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/local_setup.ps1'
+[4.978s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/_local_setup_util_ps1.py'
+[4.984s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/setup.ps1'
+[4.993s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/local_setup.sh'
+[4.997s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/_local_setup_util_sh.py'
+[5.001s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/setup.sh'
+[5.039s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/local_setup.bash'
+[5.045s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/setup.bash'
+[5.059s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/local_setup.zsh'
+[5.071s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/setup.zsh'

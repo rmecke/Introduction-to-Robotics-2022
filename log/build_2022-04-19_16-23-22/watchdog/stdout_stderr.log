@@ -1,0 +1,41 @@
+running egg_info
+creating ../../build/watchdog/watchdog.egg-info
+writing ../../build/watchdog/watchdog.egg-info/PKG-INFO
+writing dependency_links to ../../build/watchdog/watchdog.egg-info/dependency_links.txt
+writing entry points to ../../build/watchdog/watchdog.egg-info/entry_points.txt
+writing requirements to ../../build/watchdog/watchdog.egg-info/requires.txt
+writing top-level names to ../../build/watchdog/watchdog.egg-info/top_level.txt
+writing manifest file '../../build/watchdog/watchdog.egg-info/SOURCES.txt'
+reading manifest file '../../build/watchdog/watchdog.egg-info/SOURCES.txt'
+writing manifest file '../../build/watchdog/watchdog.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/build/watchdog/build
+creating /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/build/watchdog/build/lib
+creating /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/build/watchdog/build/lib/watchdog
+copying watchdog/watchdog.py -> /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/build/watchdog/build/lib/watchdog
+copying watchdog/controller.py -> /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/build/watchdog/build/lib/watchdog
+copying watchdog/__init__.py -> /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/build/watchdog/build/lib/watchdog
+running install
+running install_lib
+creating /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/watchdog/lib/python3.8/site-packages/watchdog
+copying /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/build/watchdog/build/lib/watchdog/watchdog.py -> /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/watchdog/lib/python3.8/site-packages/watchdog
+copying /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/build/watchdog/build/lib/watchdog/controller.py -> /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/watchdog/lib/python3.8/site-packages/watchdog
+copying /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/build/watchdog/build/lib/watchdog/__init__.py -> /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/watchdog/lib/python3.8/site-packages/watchdog
+byte-compiling /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/watchdog/lib/python3.8/site-packages/watchdog/watchdog.py to watchdog.cpython-38.pyc
+byte-compiling /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/watchdog/lib/python3.8/site-packages/watchdog/controller.py to controller.cpython-38.pyc
+byte-compiling /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/watchdog/lib/python3.8/site-packages/watchdog/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/watchdog/share/ament_index
+creating /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/watchdog/share/ament_index/resource_index
+creating /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/watchdog/share/ament_index/resource_index/packages
+copying resource/watchdog -> /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/watchdog/share/ament_index/resource_index/packages
+copying package.xml -> /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/watchdog/share/watchdog
+creating /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/watchdog/share/watchdog/launch
+copying launch/watchdog.launch.py -> /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/watchdog/share/watchdog/launch
+running install_egg_info
+Copying ../../build/watchdog/watchdog.egg-info to /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/watchdog/lib/python3.8/site-packages/watchdog-0.0.0-py3.8.egg-info
+running install_scripts
+Installing controller script to /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/watchdog/lib/watchdog
+Installing watchdog script to /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/watchdog/lib/watchdog
+writing list of installed files to '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/build/watchdog/install.log'

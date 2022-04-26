@@ -1,0 +1,22 @@
+[1.879s] Invoking command in '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/src/watchdog': PYTHONPATH=/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/watchdog/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/watchdog build --build-base /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/build/watchdog/build install --prefix /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/watchdog --record /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/build/watchdog/install.log --single-version-externally-managed
+[2.447s] running egg_info
+[2.448s] writing ../../build/watchdog/watchdog.egg-info/PKG-INFO
+[2.450s] writing dependency_links to ../../build/watchdog/watchdog.egg-info/dependency_links.txt
+[2.452s] writing entry points to ../../build/watchdog/watchdog.egg-info/entry_points.txt
+[2.455s] writing requirements to ../../build/watchdog/watchdog.egg-info/requires.txt
+[2.456s] writing top-level names to ../../build/watchdog/watchdog.egg-info/top_level.txt
+[2.575s] reading manifest file '../../build/watchdog/watchdog.egg-info/SOURCES.txt'
+[2.576s] writing manifest file '../../build/watchdog/watchdog.egg-info/SOURCES.txt'
+[2.578s] running build
+[2.578s] running build_py
+[2.579s] running install
+[2.581s] running install_lib
+[2.584s] running install_data
+[2.585s] running install_egg_info
+[2.588s] removing '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/watchdog/lib/python3.8/site-packages/watchdog-0.0.0-py3.8.egg-info' (and everything under it)
+[2.588s] Copying ../../build/watchdog/watchdog.egg-info to /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/watchdog/lib/python3.8/site-packages/watchdog-0.0.0-py3.8.egg-info
+[2.590s] running install_scripts
+[2.649s] Installing controller script to /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/watchdog/lib/watchdog
+[2.651s] Installing watchdog script to /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/watchdog/lib/watchdog
+[2.653s] writing list of installed files to '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/build/watchdog/install.log'
+[2.716s] Invoked command in '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/src/watchdog' returned '0': PYTHONPATH=/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/watchdog/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/watchdog build --build-base /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/build/watchdog/build install --prefix /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/watchdog --record /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/build/watchdog/install.log --single-version-externally-managed

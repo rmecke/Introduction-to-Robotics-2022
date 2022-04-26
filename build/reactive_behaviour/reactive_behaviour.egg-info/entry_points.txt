@@ -1,0 +1,4 @@
+[console_scripts]
+controller = reactive_behaviour.controller:main
+scoring = reactive_behaviour.scoring:main
+

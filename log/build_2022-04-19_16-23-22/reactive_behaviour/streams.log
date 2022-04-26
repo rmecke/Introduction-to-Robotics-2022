@@ -1,0 +1,43 @@
+[2.073s] Invoking command in '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/src/reactive_behaviour': PYTHONPATH=/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/reactive_behaviour/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/reactive_behaviour build --build-base /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/build/reactive_behaviour/build install --prefix /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/reactive_behaviour --record /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/build/reactive_behaviour/install.log --single-version-externally-managed
+[2.618s] running egg_info
+[2.619s] creating ../../build/reactive_behaviour/reactive_behaviour.egg-info
+[2.622s] writing ../../build/reactive_behaviour/reactive_behaviour.egg-info/PKG-INFO
+[2.622s] writing dependency_links to ../../build/reactive_behaviour/reactive_behaviour.egg-info/dependency_links.txt
+[2.622s] writing entry points to ../../build/reactive_behaviour/reactive_behaviour.egg-info/entry_points.txt
+[2.622s] writing requirements to ../../build/reactive_behaviour/reactive_behaviour.egg-info/requires.txt
+[2.622s] writing top-level names to ../../build/reactive_behaviour/reactive_behaviour.egg-info/top_level.txt
+[2.624s] writing manifest file '../../build/reactive_behaviour/reactive_behaviour.egg-info/SOURCES.txt'
+[2.753s] reading manifest file '../../build/reactive_behaviour/reactive_behaviour.egg-info/SOURCES.txt'
+[2.757s] writing manifest file '../../build/reactive_behaviour/reactive_behaviour.egg-info/SOURCES.txt'
+[2.758s] running build
+[2.759s] running build_py
+[2.759s] creating /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/build/reactive_behaviour/build
+[2.764s] creating /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/build/reactive_behaviour/build/lib
+[2.765s] creating /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/build/reactive_behaviour/build/lib/reactive_behaviour
+[2.765s] copying reactive_behaviour/controller.py -> /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/build/reactive_behaviour/build/lib/reactive_behaviour
+[2.765s] copying reactive_behaviour/__init__.py -> /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/build/reactive_behaviour/build/lib/reactive_behaviour
+[2.766s] copying reactive_behaviour/scoring.py -> /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/build/reactive_behaviour/build/lib/reactive_behaviour
+[2.767s] running install
+[2.768s] running install_lib
+[2.769s] creating /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/reactive_behaviour/lib/python3.8/site-packages/reactive_behaviour
+[2.772s] copying /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/build/reactive_behaviour/build/lib/reactive_behaviour/controller.py -> /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/reactive_behaviour/lib/python3.8/site-packages/reactive_behaviour
+[2.773s] copying /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/build/reactive_behaviour/build/lib/reactive_behaviour/__init__.py -> /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/reactive_behaviour/lib/python3.8/site-packages/reactive_behaviour
+[2.774s] copying /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/build/reactive_behaviour/build/lib/reactive_behaviour/scoring.py -> /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/reactive_behaviour/lib/python3.8/site-packages/reactive_behaviour
+[2.774s] byte-compiling /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/reactive_behaviour/lib/python3.8/site-packages/reactive_behaviour/controller.py to controller.cpython-38.pyc
+[2.774s] byte-compiling /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/reactive_behaviour/lib/python3.8/site-packages/reactive_behaviour/__init__.py to __init__.cpython-38.pyc
+[2.774s] byte-compiling /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/reactive_behaviour/lib/python3.8/site-packages/reactive_behaviour/scoring.py to scoring.cpython-38.pyc
+[2.776s] running install_data
+[2.777s] creating /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/reactive_behaviour/share/ament_index
+[2.778s] creating /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/reactive_behaviour/share/ament_index/resource_index
+[2.779s] creating /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/reactive_behaviour/share/ament_index/resource_index/packages
+[2.780s] copying resource/reactive_behaviour -> /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/reactive_behaviour/share/ament_index/resource_index/packages
+[2.780s] copying package.xml -> /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/reactive_behaviour/share/reactive_behaviour
+[2.781s] creating /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/reactive_behaviour/share/reactive_behaviour/launch
+[2.781s] copying launch/robot.launch.py -> /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/reactive_behaviour/share/reactive_behaviour/launch
+[2.781s] running install_egg_info
+[2.786s] Copying ../../build/reactive_behaviour/reactive_behaviour.egg-info to /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/reactive_behaviour/lib/python3.8/site-packages/reactive_behaviour-0.0.0-py3.8.egg-info
+[2.789s] running install_scripts
+[2.842s] Installing controller script to /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/reactive_behaviour/lib/reactive_behaviour
+[2.848s] Installing scoring script to /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/reactive_behaviour/lib/reactive_behaviour
+[2.849s] writing list of installed files to '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/build/reactive_behaviour/install.log'
+[2.971s] Invoked command in '/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/src/reactive_behaviour' returned '0': PYTHONPATH=/home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/reactive_behaviour/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/reactive_behaviour build --build-base /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/build/reactive_behaviour/build install --prefix /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/install/reactive_behaviour --record /home/drivingswarm/Desktop/ass2/introduction_to_robotics_tutorial/build/reactive_behaviour/install.log --single-version-externally-managed
