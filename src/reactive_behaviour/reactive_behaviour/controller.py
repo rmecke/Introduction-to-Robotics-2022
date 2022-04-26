@@ -16,34 +16,35 @@ class VelocityController(Node):
         self.create_timer(0.1, self.timer_cb)
         self.get_logger().info('controller node started')
         
+        
     def timer_cb(self):
         msg = Twist()
-
-        # Lineare Bewegung
         x = self.forward_distance - 0.3
-        x = x if x < 0.1 else 0.1   # wenn mehr als 0.4x platz ist mit 0.1x bewegen, sonst differenz auf bis 0.3x zum hindernis
-        x = x if x >= 0 else 0.0    # falls näher an wand, nicht weiter bewegen
+        x = x if x < 0.1 else 0.1
+        x = x if x >= 0 else 0.0
         msg.linear.x = x
-
-        # Rechtsdrehung vor Wand
-        if x==0:
-            msg.angular.z = msg.angular.z - 2.0 # stellt man die höher bewegt er sich wie "chaotische" saugroboter
-            
-
-        # Abstandswahrung zu Wänden
+        
+        #Turtle ist direkt vor Wand
+        if (x==0):
+            msg.angular.z = msg.angular.z - 0.5 #nach rechts drehen
+        
+        #Turtle ist links zu nah an einer Wand
         left = self.left_distance - 0.3
-        right = self.right_distance - 0.3
         if left < 0.1:
-            msg.angular.z = msg.angular.z - 0.5 # nach rechts drehen
+            msg.angular.z = msg.angular.z - 0.5 #leicht nach rechts drehen
+        
+        #Turtle ist rechts zu nah an einer Wand
+        right = self.right_distance - 0.3
         if right < 0.1:
-            msg.angular.z = msg.angular.z + 0.5 # nach links drehen
-            
+            msg.angular.z = msg.angular.z + 0.5 #leicht nach links drehen
+        
         self.publisher.publish(msg)
     
     def laser_cb(self, msg):
         self.forward_distance = msg.ranges[0]
         self.left_distance = msg.ranges[89]
         self.right_distance = msg.ranges[269]
+        #self.get_logger().info(f'left: {msg.ranges[269]}')
 
 
 
@@ -62,4 +63,3 @@ def main(args=None):
 
 if __name__ == '__main__':
     main()
-
